@@ -59,7 +59,7 @@ header > nav > ul {
 header > nav#menu-superior {
     position: absolute;
     top: 3%;
-    right: 3%;
+    right: 1%;
     display: inline-block;
 }
 
