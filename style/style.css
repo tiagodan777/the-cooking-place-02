@@ -48,7 +48,7 @@ header > form > input#search {
     font-size: 1.2em;
     padding: 12px;
     border-radius: 30px;
-    border: 1px solid var(--cor1);
+    border: 1px solid var(--cor0);
 }
 
 header > nav > ul {
@@ -70,12 +70,18 @@ header > nav#menu-superior > ul > li {
 
 header > nav#menu-principal {
     text-align: center;
-    margin: 30px;
+    margin: 30px auto;
+    /*border: 0.5px solid var(--cor1);*/
+    max-width: 800px;
+    min-width: 500px;
+    max-height: 80px;
+    border-radius: 60px;
+    padding: 10px;
 }
 
 header > nav#menu-principal > ul > li {
     display: inline-block;
-    padding: 15px;
+    padding-right: 20px;
     line-height: 0.85em;
 }
 
@@ -120,6 +126,10 @@ main > article > p {
 
 .descricao {
     margin-bottom: 50px;
+}
+
+.icone {
+    margin-right: 10px;
 }
 
 
